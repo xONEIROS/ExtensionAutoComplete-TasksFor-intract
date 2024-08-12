@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+<head>
+    <style>
+        @font-face {
+    font-family: 'oneiros';
+    src: url('/assets/oneiros.woff') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+        body {
+        width: 200px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        height: 350px;
+        text-align: center;
+        font-family: 'oneiros';
+        justify-content: center;
+        align-items: center;
+        }
+        button {
+        width: 100px;
+        height: 50px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'peyda';
+        place-self: center;
+      }
+      .tlink{
+        color: black;
+        text-decoration: none;
+        margin-top: 10px;
+        font-weight: 16px;
+        margin-bottom: 10px;
+        padding-right: 5px;
+      }
+      .links {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    }
+    .logo{
+        width: 150px;
+    }
+        #timer {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <img src="assets/lllogo.png" class="logo">
+    <p> این اکستنشن کاملا اوپن سورس است ، و میتوانید کد های ان را مشاهده کنید ، این اکستنشن فقط با وی پی ان ولید برای شما کار میکند ، با این اکستنشن فقط میتوانید بعضی از تسک های توییتر یا مطالعه را دور بزنید و تسک هایی مانند دیسکورد که اجباری هستند را باید انجام بدهید </p>
+    <button id="runScript">بزن تسکارو</button>
+    <div id="timer"></div>
+    <script src="popup.js"></script>
+    <div class="links">
+        <a href="https://x.com/0xoneiros" class="tlink" target="_blank">Twitter (X) </a>
+        <a href="https://t.me/xOneiros" class="tlink" target="_blank">Telegram | </a>
+    </div>
+</body>
+</html>
